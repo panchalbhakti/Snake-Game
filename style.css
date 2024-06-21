@@ -5,7 +5,7 @@
 }
 
 .body{
-    background: url("../background-snake.jpg"); 
+    background: url("background-snake.jpg"); 
     min-height: 100vh;
     background-size: 100vw 100vh;
     background-repeat: no-repeat;
@@ -46,19 +46,19 @@
 
 .head{
     background: linear-gradient(rgb(240, 124, 124), rgb(228, 228, 129));
-    border: 2px solid rgb(34, 4, 34); 
+    /* border: 2px solid rgb(34, 4, 34);  */
     transform: scale(1.02);
     border-radius: 9px;
 }
 
 .snake{
     background-color: rgb(158, 92, 158);
-    border: .25vmin solid rgb(0, 0, 0);
+    /* border: .25vmin solid rgb(0, 0, 0); */
     border-radius: 12px;
 }
 
 .food{
     background: linear-gradient(rgb(230, 149, 149), rgb(179, 113, 179));
-    border: .25vmin solid black;
+    /* border: .25vmin solid black; */
     border-radius: 8px;
 }
